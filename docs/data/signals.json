@@ -1,41 +1,40 @@
 {
-  "serverTime": "2026-11-21T08:33:41.340Z",
+  "serverTime": "2026-11-24T06:17:18.222Z",
   "results": [
     {
       "ok": true,
       "data": {
         "symbol": "QLD",
-        "price": 63.52,
-        "asOf": "2026-11-20T14:30:00.000Z",
-        "updatedAt": "2026-11-21T08:33:41.331Z",
-        "sma200": 83.67,
-        "gap": -24.08,
-        "rsi14": 43.39,
-        "rsi14Provisional": 33.15,
+        "price": 71.91,
+        "asOf": "2026-11-23T14:30:00.000Z",
+        "updatedAt": "2026-11-24T06:17:18.149Z",
+        "sma200": 83.68,
+        "gap": -14.07,
+        "rsi14": 33.15,
+        "rsi14Provisional": 41.11,
         "signal": {
-          "level": 2,
-          "by": [
-            "RSI 1차",
-            "괴리율 1차",
-            "괴리율 2차"
-          ]
-        },
-        "provisionalSignal": {
           "level": 3,
           "by": [
             "RSI 1차",
             "괴리율 1차",
             "RSI 2차",
-            "괴리율 2차",
             "RSI 3차"
+          ]
+        },
+        "provisionalSignal": {
+          "level": 2,
+          "by": [
+            "RSI 1차",
+            "괴리율 1차",
+            "RSI 2차"
           ]
         },
         "next": {
           "level": 3,
           "rsiThreshold": 36,
           "gapThreshold": -26,
-          "priceAtCurrentSma": 61.91,
-          "priceChangePct": -2.53
+          "priceAtCurrentSma": 61.92,
+          "priceChangePct": -13.89
         },
         "rules": {
           "rsi": [
@@ -49,14 +48,10 @@
             -26
           ]
         },
-        "weeklyRsiConfirmedThrough": "2026-11-09",
+        "weeklyRsiConfirmedThrough": "2026-11-16",
         "weeklyRsiProvisional": true,
         "priceIsIntraday": true,
         "history": [
-          {
-            "date": "2025-12-09",
-            "close": 73.1
-          },
           {
             "date": "2025-12-10",
             "close": 73.66
@@ -1012,6 +1007,10 @@
           {
             "date": "2026-11-20",
             "close": 63.52
+          },
+          {
+            "date": "2026-11-23",
+            "close": 71.91
           }
         ],
         "note": "괴리율과 종가는 최신 제공 데이터 기준이며, 주봉 RSI는 완료된 주봉만 사용. 데이터 제공사 지연 가능."
@@ -1021,36 +1020,34 @@
       "ok": true,
       "data": {
         "symbol": "TQQQ",
-        "price": 41.2,
-        "asOf": "2026-11-20T14:30:00.000Z",
-        "updatedAt": "2026-11-21T08:33:41.264Z",
-        "sma200": 65.65,
-        "gap": -37.24,
-        "rsi14": 41.79,
-        "rsi14Provisional": 32.75,
+        "price": 49.1,
+        "asOf": "2026-11-23T14:30:00.000Z",
+        "updatedAt": "2026-11-24T06:17:18.213Z",
+        "sma200": 65.64,
+        "gap": -25.2,
+        "rsi14": 32.75,
+        "rsi14Provisional": 39.51,
         "signal": {
           "level": 2,
           "by": [
             "RSI 1차",
             "괴리율 1차",
-            "괴리율 2차"
+            "RSI 2차"
           ]
         },
         "provisionalSignal": {
-          "level": 2,
+          "level": 1,
           "by": [
             "RSI 1차",
-            "괴리율 1차",
-            "RSI 2차",
-            "괴리율 2차"
+            "괴리율 1차"
           ]
         },
         "next": {
           "level": 3,
           "rsiThreshold": 31,
           "gapThreshold": -45,
-          "priceAtCurrentSma": 36.11,
-          "priceChangePct": -12.36
+          "priceAtCurrentSma": 36.1,
+          "priceChangePct": -26.47
         },
         "rules": {
           "rsi": [
@@ -1064,14 +1061,10 @@
             -45
           ]
         },
-        "weeklyRsiConfirmedThrough": "2026-11-09",
+        "weeklyRsiConfirmedThrough": "2026-11-16",
         "weeklyRsiProvisional": true,
         "priceIsIntraday": true,
         "history": [
-          {
-            "date": "2025-12-09",
-            "close": 56.01
-          },
           {
             "date": "2025-12-10",
             "close": 56.65
@@ -2027,6 +2020,10 @@
           {
             "date": "2026-11-20",
             "close": 41.2
+          },
+          {
+            "date": "2026-11-23",
+            "close": 49.1
           }
         ],
         "note": "괴리율과 종가는 최신 제공 데이터 기준이며, 주봉 RSI는 완료된 주봉만 사용. 데이터 제공사 지연 가능."
